@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Color Inverter - Dark Mode for PDFs",
+  "version": "1.0.0",
+  "description": "Instantly invert PDF colors for better readability and reduced eye strain. Perfect for dark mode reading and accessibility.",
+  "author": "Ashrith Sathu",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://*/*", "http://*/*", "file:///*"],
+  "homepage_url": "https://github.com/ashrithsathu/pdf-inverter",
+  "minimum_chrome_version": "88"
+}
